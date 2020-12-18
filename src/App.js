@@ -30,7 +30,7 @@ class App extends Component {
 							</React.Fragment>
 						)}
 					/>
-					<Route  path="/barber" render={props => (
+					<Route exact path="/barber" render={props => (
 							<React.Fragment>
 								<Barbers BarberData={this.state.BarberData} />
 							</React.Fragment>
