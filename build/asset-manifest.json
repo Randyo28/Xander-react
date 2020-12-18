@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Xander-react/static/css/main.8c7c033c.chunk.css",
+    "main.js": "/Xander-react/static/js/main.3a1432b6.chunk.js",
+    "main.js.map": "/Xander-react/static/js/main.3a1432b6.chunk.js.map",
+    "runtime-main.js": "/Xander-react/static/js/runtime-main.12c14f02.js",
+    "runtime-main.js.map": "/Xander-react/static/js/runtime-main.12c14f02.js.map",
+    "static/js/2.42fb79bd.chunk.js": "/Xander-react/static/js/2.42fb79bd.chunk.js",
+    "static/js/2.42fb79bd.chunk.js.map": "/Xander-react/static/js/2.42fb79bd.chunk.js.map",
+    "static/js/3.fcb937d9.chunk.js": "/Xander-react/static/js/3.fcb937d9.chunk.js",
+    "static/js/3.fcb937d9.chunk.js.map": "/Xander-react/static/js/3.fcb937d9.chunk.js.map",
+    "index.html": "/Xander-react/index.html",
+    "static/css/main.8c7c033c.chunk.css.map": "/Xander-react/static/css/main.8c7c033c.chunk.css.map",
+    "static/js/2.42fb79bd.chunk.js.LICENSE.txt": "/Xander-react/static/js/2.42fb79bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12c14f02.js",
+    "static/js/2.42fb79bd.chunk.js",
+    "static/css/main.8c7c033c.chunk.css",
+    "static/js/main.3a1432b6.chunk.js"
+  ]
+}
