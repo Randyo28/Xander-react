@@ -38,7 +38,7 @@ class Barbers extends Component {
 	loopBarber() {
 		var { BarberData } = this.props;
 
-		return BarberData.map((box, index, key=12) => {
+		return BarberData.map((box, index, key="barbers") => {
 			return (
 				<>
 					<div className="barberDiv" key={index}>
