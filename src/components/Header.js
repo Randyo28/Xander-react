@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import HeaderList from './HeaderList.js';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Logo from '../img/barber-logo-black.png';
 
 
 const Headertag = styled.header`
@@ -46,7 +47,7 @@ class Header extends Component {
 			<Headertag >
 				<Link to="/Xander-react">
 					<div className="logo-area" style={styleLogoArea}>
-						<img style={styleLogoImg} src="/assets/img/barber-logo-black.png" alt="logo" />
+						<img style={styleLogoImg} src={Logo} alt="logo" />
 					</div>
 				</Link>
 				<ul className="ul-list" style={styleList}> 

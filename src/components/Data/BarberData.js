@@ -1,18 +1,22 @@
+// import Barber1 from '../img/Adeluis-pic.jpeg';
+// import Barber2 from '../img/Manuary-pic.jpeg';
+// import Barber3 from '../img/Jays-pic.jpeg';
+
 const BarberData = [
 	{
-		image: '/assets/img/Adeluis-pic.jpeg',
+		image: '../img/Adeluis-pic.jpeg',
 		name: 'Adeluis',
 		dayOff: 'Tuesday',
 		key: 'barber1'
 	},
 	{
-		image: 'assets/img/Manuary-pic.jpeg',
+		image: '../img/Manuary-pic.jpeg',
 		name: 'Manaury',
 		dayOff: 'Wednesday',
 		key: 'barber2'
 	},
 	{
-		image: 'assets/img/Jays-pic.jpeg',
+		image: '../img/Jays-pic.jpeg',
 		name: 'Jay',
 		dayOff: 'Monday',
 		key: 'barber3'
