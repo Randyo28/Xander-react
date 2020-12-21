@@ -27,6 +27,30 @@ const DivStyle = styled.div`
 	}
 `
 
+const BarberDiv = styled.div`
+	padding: 30px;
+    text-align: center;
+`
+
+const BarberPhoto = styled.img`
+	width: 69%;
+    box-shadow: 7px 3px 10px 3px #000000;
+	transition: all .5s ease-in-out;
+	&:hover{
+		box-shadow: 11px 7px 17px 7px #000000;
+	}
+`
+
+const BName = styled.h3`
+	font-size: 40px;
+    margin-top: 20px;
+`
+
+const BH5 = styled.h5`
+	 margin-top: 10px;
+     font-size: 20px;
+`
+
 class Barbers extends Component {
 	constructor() {
 		super();
@@ -38,16 +62,16 @@ class Barbers extends Component {
 	loopBarber() {
 		var { BarberData } = this.props;
 
-		return BarberData.map((box, index, key="barbers") => {
+		return BarberData.map((box, index,) => {
 			return (
 				<>
-					<div className="barberDiv" key={index}>
-							<img className="barberPhoto" src={box.image}  alt="barber"></img>
-							<h3 className="bName">{box.name}</h3>
-							<h5 className="bH5">Hours Available:</h5>
-							<h5 className="bH5">10am - 7pm</h5>
-							<h5 className="bH5">Day off: {box.dayOff}</h5>
-					</div>
+					<BarberDiv key={index}>
+							<BarberPhoto src={box.image}  alt="barber"></BarberPhoto>
+							<BName>{box.name}</BName>
+							<BH5>Hours Available:</BH5>
+							<BH5>10am - 7pm</BH5>
+							<BH5>Day off: {box.dayOff}</BH5>
+					</BarberDiv>
 				</>
 			);
 		});

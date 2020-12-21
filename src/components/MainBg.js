@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 // props in styled component
 // ${props => props.color ? props.color : 'white'}
+
+
 const Ptag = styled.p`
 	color: white;
 	font-size: 66px;
@@ -45,19 +47,7 @@ class MainBg extends Component {
 			textShadow: '1px 1px 1px',
 			fontFamily: 'Courgette'
 		};
-		// const styleNameX = {
-		// 	fontSize: '110px',
-		// 	color: 'white',
-		// 	paddingLeft: '215px',
-		// 	textShadow: '1px 1px 1px',
-		// 	fontFamily: 'Courgette'
-		// };
-		// const styleNameP = {
-		// 	fontSize: '66px',
-		// 	color: 'white',
-		// 	fontFamily: 'Courgette',
-		// 	paddingLeft: '120px'
-		// };
+		
 		const buttonDiv = {
 			padding: '20px 200px',
 			display: 'flex'
@@ -65,7 +55,6 @@ class MainBg extends Component {
 
 		return (
 			<div className="Bg">
-				{/* <div style={floatingCircle}></div> */}
 				<div style={container}>
 					<div style={nameDiv}>
 						<h1>

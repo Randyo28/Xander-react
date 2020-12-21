@@ -1,5 +1,21 @@
 import React, { Component } from 'react';
-// import IconBox from './IconBox.js';
+import styled from 'styled-components';
+
+
+const BoxStyle = styled.div`
+	text-align: Center;
+  	padding: 20px;
+`
+const P1 = styled.p`
+	margin-top: 20px;
+  	color: #373c42;
+  	font-weight: bold;
+  	padding-bottom: 20px;
+`
+const P2 = styled.p`
+	color: maroon;
+  	font-weight: 100;
+`
 
 class Services extends Component {
 	constructor() {
@@ -13,13 +29,13 @@ class Services extends Component {
 
 		return BoxData.map((box, index) => {
 			return (
-				<div className="box" key={index}>
+				<BoxStyle key={index}>
 					<div>
-						<img src={box.image} alt="scissor-icon" />
+						<img src={box.image} alt="Icon" />
 					</div>
-					<p className="p1">{box.title}</p>
-					<p className="p2">${box.price}</p>
-				</div>
+					<P1>{box.title}</P1>
+					<P2>${box.price}</P2>
+				</BoxStyle>
 			);
 		});
 	}
@@ -48,20 +64,6 @@ class Services extends Component {
 			textAlign: 'Center',
 			padding: '20px'
 		};
-		// const box = {
-		// 	textAlign: 'Center',
-		// 	padding: '20px'
-		// };
-		// const p1 = {
-		// 	marginTop: '20px',
-		// 	color: '#373c42',
-		// 	fontWeight: 'bold',
-		// 	paddingBottom: '20px'
-		// };
-		// const p2 = {
-		// 	color: 'maroon',
-		// 	fontWeight: '100'
-		// };
 
 		return (
 			<div style={serviceBg}>

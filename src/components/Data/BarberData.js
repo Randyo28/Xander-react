@@ -4,19 +4,19 @@
 
 const BarberData = [
 	{
-		image: '../img/Adeluis-pic.jpeg',
+		image: 'https://xandersbarber.shop/images/Adeluis-pic.jpeg',
 		name: 'Adeluis',
 		dayOff: 'Tuesday',
 		key: 'barber1'
 	},
 	{
-		image: '../img/Manuary-pic.jpeg',
+		image: 'https://xandersbarber.shop/images/Manuary-pic.jpeg',
 		name: 'Manaury',
 		dayOff: 'Wednesday',
 		key: 'barber2'
 	},
 	{
-		image: '../img/Jays-pic.jpeg',
+		image: 'https://xandersbarber.shop/images/Jays-pic.jpeg',
 		name: 'Jay',
 		dayOff: 'Monday',
 		key: 'barber3'
